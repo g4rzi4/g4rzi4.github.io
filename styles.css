@@ -1,0 +1,496 @@
+.html, body{
+    background-color: white;
+    color: black;
+}
+
+@font-face {
+    font-family: 'Elegante Classica';
+    src: url(fonts/EleganteClassica.woff2) format(woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Karla-LightItalic';
+    src: url(fonts/Karla-LightItalic.woff2) format(woff2);
+    font-display: swap;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+#nav_head ul{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 4%;
+    margin-top: 5px;
+    gap:170px;
+    font-family: 'Elegante Classica';
+    text-align: center;
+    font-size:x-large;
+    align-items: center;
+}
+
+#nav_head a{
+    color: black;
+    text-decoration: none;
+    font-weight: 1200;
+}
+
+#nav_head a:hover{
+    color: #C8A850;
+}
+
+#logo_header{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#title_mc{
+    margin-left: 20px;
+    text-align: left;
+    font-family: 'Elegante Classica';
+}
+
+.nav_menu{
+    display: block;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 5px;
+    position: fixed;
+}
+
+.nav_menu ul{
+    list-style-type: none;
+    font-family: 'Elegante Classica';
+    font-size: large;
+}
+
+.nav_menu a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.nav_menu a:hover{
+    color: #C8A850;
+}
+
+.nav_menu ul li a {
+    display: block; 
+    padding: 17px 0; 
+}
+
+.principal{
+    position: static;
+    background-color: #F5F5F5;
+    width: 77%;
+    margin-left: 300px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+#bienvenida{
+    text-align: center;
+    font-family: 'Elegante Classica';
+    font-weight: bold;
+    font-size: xx-large;
+    color: #C8A850;
+    position: relative;
+    margin-top: 6px;
+}
+
+.principal p{
+    font-family: 'Karla-LightItalic';
+    text-align: justify ;
+    padding: 20px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.principal img{
+    display: block;
+    max-width: 65%;
+    margin: auto;
+    height: auto;
+    padding-top:  15px;
+}
+
+#especialidades h3{
+    font-family: 'Elegante Classica';
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #C8A850;
+    position: relative;
+    margin-top: 5px;
+    padding: 20px;
+    padding-top: 90px;
+}
+
+#sopes_pato{
+    display: block;
+    float: inline-end;
+    max-width: 65%;
+    margin: auto;
+    height: auto;
+    padding:  15px;
+}
+
+#filete_plancha{
+    display: block;
+    float: inline-start;
+    max-width: 65%;
+    margin: auto;
+    height: 35%;
+    padding: 15px;
+}
+
+#n_espacios h3{
+    font-family: 'Elegante Classica';
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #C8A850;
+    position: relative;
+    margin-top: 5px;
+    padding: 20px;
+    padding-top: 90px;
+}
+
+#servicios h3{
+    font-family: 'Elegante Classica';
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #C8A850;
+    position: relative;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+#como_llegar h3{
+    font-family: 'Elegante Classica';
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #C8A850;
+    position: relative;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+#reservaciones h3{
+    font-family: 'Elegante Classica';
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #C8A850;
+    position: relative;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+#s_principal figcaption{
+    padding: 20px;
+    font-family: 'Elegante Classica';
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#cap_vest{
+    font-family: 'Elegante Classica';
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#cap_terr{
+    font-family: 'Elegante Classica';
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#vestibulo{
+    max-width: 65%;
+    height: auto;
+}
+
+#privados figcaption{
+    padding: 20px;
+    font-family: 'Elegante Classica';
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#terraza_jardin figcaption{
+    padding: 20px;
+    font-family: 'Elegante Classica';
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#n_espacios h2{
+    font-family: 'Karla-LightItalic';
+    font-size: medium;
+}
+
+#n_espacios a{
+    text-decoration: none;
+    color: #C8A850;
+}
+
+#n_espacios a:hover{
+    color: rgb(165, 103, 3);
+}
+
+#servicios p{
+    padding: 3px;
+    margin-left: 30px;
+}
+
+#servicios img{
+    float: right;
+    display: block;
+    padding: 30px;
+    max-width: 30%;
+    margin-right: 100px;
+}
+
+#como_llegar h2{
+    padding: 5px;
+    font-family: 'Elegante Classica';
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#como_llegar p{
+    text-align: center;
+}
+
+#como_llegar iframe{
+    display: block;
+    margin: auto;
+}
+
+#reservaciones label, input{
+    text-align: justify;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 4px;
+    font-family: 'Karla-LightItalic';
+}
+
+footer{
+    background-color: #F5F5F5;
+}
+
+footer p{
+    text-align: center;
+    font-family: 'Elegante Classica';
+    padding: 7px;
+}
+
+#m_antiguo{
+    position: static;
+    background-color: #F5F5F5;
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+}
+
+#m_antiguo h2, h3, h4{
+    font-family: 'Elegante Classica';
+    color: #C8A850;
+    padding: 10px;
+    text-align: center;
+}
+
+#m_antiguo h3{
+    color: black;
+}
+
+#m_antiguo p{
+    font-family: 'Karla-LightItalic';
+    text-align: justify ;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+#ma1{
+    display: block;
+    margin: auto;
+    float: inline-start;
+    padding: 15px;
+    max-width: 30%;
+    width: 15%;
+}
+
+
+#tabla_esp img{
+    max-height: 80%;
+    display: block;
+    margin: auto;
+}
+
+#tabla_esp{
+    display: block;
+    margin-left: 15%;
+}
+
+#poema p{
+    text-align: center;
+}
+
+.recetas h2, h3{
+    font-family: 'Elegante Classica';
+    color: #C8A850;
+    padding: 10px;
+    text-align: center;
+}
+
+.recetas p{
+    font-family: 'Karla-LightItalic';
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.recetas table{
+    display: block;
+    margin: 20%;
+    margin-top: 50px;
+}
+
+.recetas{
+    position: static;
+    background-color: #F5F5F5;
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+}
+
+#nosotros h2{
+    font-family: 'Elegante Classica';
+    color: #C8A850;
+    padding: 10px;
+    text-align: center;
+}
+
+#nosotros p{
+    font-family: 'Karla-LightItalic';
+    text-align: justify;
+    padding: 20px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+#nosotros{
+    position: static;
+    background-color: #F5F5F5;
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+}
+
+#nosotros img{
+    display: block;
+    float: right;
+    padding: 15px;
+}
+
+.cntc{
+    position: static;
+    background-color: #F5F5F5;
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+}
+
+.cntc label, p{
+    font-family: 'Karla-LightItalic';
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 2px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.cntc h2, h1, h3{
+    font-family: 'Elegante Classica';
+    color: #C8A850;
+    padding: 10px;
+    text-align: center;
+}
+
+#menu_rec{
+    color: black;
+    display: block;
+    position: fixed;
+    padding: 15px;
+}
+
+#menu_rec a{
+    text-decoration: none;
+    font-family: 'Elegante Classica';
+    color:black;
+
+}
+
+#menu_rec a:hover{
+    color:#C8A850;
+}
+
+#menu_rec{
+    display: block;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 5px;
+    position: fixed;
+}
+
+.recetas p{
+    text-align: justify;
+    padding: 15px;
+    padding-bottom: 7px;
+}
+
+.recetas img{
+    display: block;
+    margin: auto;
+    max-width:30%;
+    width:20%;
+    float: left;
+    padding: 15px;
+}
+
+.recetas section, div{
+    padding: 20px;
+}
+
+#title_mc a{
+    color: black;
+    text-decoration: none;
+}
+
+#title_mc a:hover{
+    color: #C8A850;
+}
